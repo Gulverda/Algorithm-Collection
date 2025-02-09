@@ -1,4 +1,4 @@
-function selectionSorts(arr){
+function selectionSortJs(arr){
     let n = arr.length
 
     for (let i = 0; i < n- 1; i++){
@@ -19,4 +19,4 @@ function selectionSorts(arr){
     return arr
 }
 
-console.log(selectionSorts([5, 2, 9, 1, 5, 6])); 
+console.log(selectionSortJs([5, 2, 9, 1, 5, 6])); 

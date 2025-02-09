@@ -1,4 +1,4 @@
-function selectionSort(arr: number[]): number[]{
+function selectionSortTs(arr: number[]): number[]{
     let n = arr.length
 
     for (let i = 0; i < n - 1; i++){
@@ -19,4 +19,4 @@ function selectionSort(arr: number[]): number[]{
     return arr
 }
 
-console.log(selectionSort([5, 2, 9, 1, 5, 6]))
+console.log(selectionSortTs([5, 2, 9, 1, 5, 6]))
